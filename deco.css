@@ -1,0 +1,147 @@
+.row > div {
+                font-family: cooper black;
+               	padding: 6px;
+                font-size: 25px;
+                background-color: #FFFD47;
+                border: 8px solid white ;
+                color: white;
+                text-align: center;
+               	text-shadow:
+    -1px -1px 0 #e089fa,
+     0   -1px 0 #e089fa,
+     1px -1px 0 #e089fa,
+     1px  0   0 #e089fa,
+     1px  1px 0 #e089fa,
+     0    1px 0 #e089fa,
+    -1px  1px 0 #e089fa,
+    -1px  0   0 #e089fa;
+            }
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imgwrap {
+   width: 50%; /*or whatever you choose*/
+   margin: auto;
+   text-align: center;
+}
+.imgwrap img {
+   display: block;
+   width: 100%;
+   max-width: 200px; /*actual image width*/
+   height: auto; /* maintain aspect ratio*/
+   margin: auto; /*optional centering of image*/
+}
+
+@media only screen and (max-width: 700px) {
+  /* For mobile phones: */
+  [class*="row"] {
+    width: 100%;
+  }
+
+}
+@media only screen and (max-width: 500px) {
+  /* For mobile phones: */
+  [id*="logo"] {
+  	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+  }
+}
+
+
+.T1{
+
+}
+
+.T2{
+	
+}
+ 
+.T3{
+	
+}
+
+ .T4{
+	
+}
+ 
+            
+
+#body  {
+  width: auto;
+  margin-right: 100px;
+  margin-left: 100px; 
+  margin-top:30px;
+  margin-bottom:30px;
+ 
+  
+}
+p,ul {
+	font-size: 17px;
+
+}
+.header{
+  width: auto;
+  padding: 20px;
+  margin: 90px; 
+  margin-top: 100px;
+  color: black;
+  text-align: left;
+  font-size: 50px;
+  font-family: cooper black,"Courier New", Courier, monospace;
+
+  
+}
+.subheading{
+  width: auto;
+  padding: 20px;
+  margin: 90px; 
+  color: black;
+  text-align: left;
+  font-size: 30px;
+  font-family: cooper black,"Courier New", Courier, monospace;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  width: 257px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  font-size:  17;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ffb8eb; color: white;}
+
+.T1:hover .dropdown-content {display: block;}
+
+.T1:hover .dropbtn {background-color: #3e8e41;}
+
+.T2:hover .dropdown-content {display: block;}
+
+.T2:hover .dropbtn {background-color: #3e8e41;}
+
+.T3:hover .dropdown-content {display: block;}
+
+.T3:hover .dropbtn {background-color: #3e8e41;}
+
+.T4:hover .dropdown-content {display: block;}
+
+.T4:hover .dropbtn {background-color: #3e8e41;}
+</style>
+</head>
+<body>
+
+
