@@ -16,24 +16,38 @@
     -1px  1px 0 #e089fa,
     -1px  0   0 #e089fa;
             }
-
 .box {
   display: flex;
   align-items: center;
   justify-content: center;
+
 }
-.imgwrap {
-   width: 50%; /*or whatever you choose*/
-   margin: auto;
+.book {
+   width: 240px; /*or whatever you choose*/
    text-align: center;
+   box-shadow: 4px 5px 25px 8px #F2F2F2;
+   border-radius: 10px;
+   margin: 30px;
+   padding:1%;
+   transition: .7s ease-out;
 }
-.imgwrap img {
-   display: block;
+
+.book img {
+  display: block;
    width: 100%;
    max-width: 200px; /*actual image width*/
    height: auto; /* maintain aspect ratio*/
    margin: auto; /*optional centering of image*/
+   margin-bottom: 10px;
+
 }
+.book:hover{
+  box-shadow: 4px 5px 15px 4px lightgrey;
+  border:1px line black;
+  transform: translateY(15px);
+  opacity: 0.8;
+  }
+
 
 @media only screen and (max-width: 700px) {
   /* For mobile phones: */
@@ -82,6 +96,7 @@
 }
 p,ul {
 	font-size: 17px;
+	color:black;
 
 }
 .header{
@@ -93,8 +108,24 @@ p,ul {
   text-align: left;
   font-size: 50px;
   font-family: cooper black,"Courier New", Courier, monospace;
-
-  
+}
+.title{
+  width: auto;
+  padding: 20px;
+  margin: 90px;
+  margin-bottom: 0px; 
+  margin-top: 100px;
+  color: black;
+  text-align: left;
+  font-size: 50px;
+  font-family: cooper black,"Courier New", Courier, monospace;
+}
+#author{
+width: auto;
+  margin-right: 100px;
+  margin-left: 110px;
+  margin-bottom:30px;
+  margin-top: 0px;
 }
 .subheading{
   width: auto;
@@ -143,5 +174,7 @@ p,ul {
 </style>
 </head>
 <body>
+
+
 
 
