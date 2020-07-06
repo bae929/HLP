@@ -1,21 +1,8 @@
 ---
 
 ---
-
-p {
-  font: {
-  margin:10px;
-  family: Helvetica, sans-serif;
-  size: 18px;
-  weight: bold;
-}
-
-text: {
-  align: center;
-  transform: lowercase;
-  overflow: hidden;
-  margin: 30px
-}
+$font:arial;
+$size:18px;
 }
 
 %message {
