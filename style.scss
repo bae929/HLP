@@ -36,21 +36,16 @@ text: {
   width: 15px;
   background-color: #eee;
 }
+ul.a{
+  list-style-type:none;
+}
 
 ul > li{
   line-height: 25px;
   font-family: $font;
   font-size: $size;
   font-weight:bold;
-  .roman {
-   list-style-type: none;
-  }
-  .square {
-   list-style-type: square;
-   margin-left: -2em;
-  }
+  
 }
 
-ul.a{
-  list-style-type:none;
-}
+
