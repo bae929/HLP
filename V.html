@@ -1,28 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Homework</title>
+        <title>Vocabulary</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="deco.css"> 
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <link rel="stylesheet" type='textscss' href="css/style.css">
-        <style>
-            table {
-                border: 2px solid white;
-                border-collapse: collapse;
-                margin-right:20px;
-                margin-left:20px;
-                
-            }
 
-            th, td {
-                border: 1px solid black;
-                padding: 5px;
-            }
-
-            th {
-                background-color: lightgray;
-            }
-        </style>
     </head>
         <!-- Logo image -->
         <div id='logo'>
@@ -75,40 +58,83 @@
             </div>
         </div>
         <p></p>
-        <div class="imgheader"><img src="July.png" height="100"><div>
-            <p></p>
-        <table>
-            <tr>
-                <th><img src="July.png" height="50"></th>
-                <th><img src="July.png" height="50"></th>
-                <th><img src="July.png" height="50"></th>
-                <th><img src="July.png" height="50"></th>
-                <th><img src="July.png" height="50"></th>
-                <th><img src="July.png" height="50"></th>
-                <th><img src="July.png" height="50"></th>
-            </tr>
-            <tr>
-                <td>
-                    <ul style="margin:20px;float:left;">
-                        <li><input type="checkbox">Write letters</li>
-                            <ul class="square">
-                            <li><input type="checkbox">Paint</li>
-                             <li><input type="checkbox">Classmates</li>
-                                <ul class="square">
-                             <li><input type="checkbox">Teachers</li>
-                        <li><input type="checkbox">Churchmates</li>
-                    </ul></ul></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-        </table>
+        <span class='header'> Vocabulary </span>
 
-            
-                    
-                
-            
+<p></p>
+<button class="collapsible">Lesson 1</button>
+<div class="content">
+  <ol class="custom-spacing">
+    <li>altruistic</li>
+    <li>ambivalent</li>
+    <li>angular</li>
+    <li>arrogant</li>
+    <li>aversion</li>
+    <li>discern</li>
+    <li>disdain</li>
+    <li>disparage</li>
+    <li>disparity</li>
+    <li>embellish</li>
+    <li>engender</li>
+    <li>innocuous</li>
+    <li>insipid</li>
+    <li>lament</li>
+    <li>laud</li>
+    <li>obscure</li>
+    <li>ostentatious</li>
+    <li>prodigal</li>
+    <li>repudiate</li>
+    <li>reticence</li>
+    <li>revere</li>
+    <li>serene</li>
+    <li>subtle</li>
+    <li>superfluous</li>
+    <li>taciturn</li>
+  <ol>
+    
+</div>
+<button class="collapsible">Lesson 2</button>
+<div class="content">
+</div>
+<button class="collapsible">Lesson 3</button>
+<div class="content">
+</div>
+<button class="collapsible">Lesson 4</button>
+<div class="content">
+</div>
+<button class="collapsible">Lesson 5</button>
+<div class="content">
+</div>
+<button class="collapsible">Lesson 6</button>
+<div class="content">
+</div>
+<button class="collapsible">Lesson 7</button>
+<div class="content">
+</div>
+<button class="collapsible">Lesson 8</button>
+<div class="content">
+</div>
+<button class="collapsible">Lesson 9</button>
+<div class="content">
+</div>
+<button class="collapsible">Lesson 10</button>
+<div class="content">
+</div>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
 </html>
