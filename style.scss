@@ -1,15 +1,17 @@
 ---
+
 ---
 
 p {
   font: {
+  margin:10px;
   family: Helvetica, sans-serif;
   size: 18px;
   weight: bold;
 }
 
 text: {
-  align: left;
+  align: center;
   transform: lowercase;
   overflow: hidden;
   margin: 30px
@@ -25,18 +27,29 @@ text: {
     margin: 20px;
 }
 
-.celebrate {
-    @extend %message;
-    background-color: pink;
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  background-color: #eee;
 }
 
-.warning {
-    @extend %message;
-    background-color: blue;
+ul > li{
+  line-height: 25px;
+  font-family: $font;
+  font-size: $size;
+  font-weight:bold;
+  .roman {
+   list-style-type: lower-roman;
+  }
+  .square {
+   list-style-type: square;
+   margin-left: -2em;
+  }
 }
-
-.late {
-    @extend %message;
-    background-color: orange;
+ul{
+  list-style-type;non
 }
-
